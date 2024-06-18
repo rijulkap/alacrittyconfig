@@ -12,6 +12,14 @@ size = 11
 # Opacity
 opacity = 0.95  # Default: 1.0
 
+[keyboard]
+bindings =[
+    { key = "Q", mods = "Control|Shift", action = "Quit" },
+    { key = "W", mods = "Control|Shift", action = "CreateNewWindow" },
+    { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
+
+
 [colors.primary]
 background = '#1a1b26'
 foreground = '#c0caf5'
